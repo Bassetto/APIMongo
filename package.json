@@ -1,0 +1,30 @@
+{
+  "name": "produto-aplicativo",
+  "version": "1.0.0",
+  "description": "Aplicativo nodejs CRUD",
+  "main": "server.js",
+  "scripts": {
+    "test": "nenhum teste especificado",
+    "dev": "nodemon server.js"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "http-server": "^0.11.1",
+    "mongoose": "^5.6.2",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
+}

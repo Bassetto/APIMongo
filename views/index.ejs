@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aquele 21</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+    <main class="principal">
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">VAIA IMAGEM</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Regras</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="row login">
+            <form action="/login" method="POST" class="col s12">
+                <section class="row form">
+                    <fieldset class="fieldInput">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input name="username" id="nome" type="text" class="validate" required placeholder="Digite seu usuário">
+                            <label for="nome">Usuário</label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="fieldInput">
+                        <div class="input-field col s6">
+                             <i class="material-icons prefix">vpn_key</i>
+                            <input name="password" required id="senha" type="password" class="validate" required placeholder="Digite sua senha">
+                            <label for="senha">Senha</label>
+                            <i onclick="exibir()" id="OcultarSenha" class="material-icons prefix">visibility</i>
+                            <i onclick="ocultar()" id="MostrarSenha" class="material-icons prefix">visibility_off</i>
+                             <a class="recuperar" href="#">Esqueceu sua senha ?</a>
+                        </div>
+                    </fieldset>
+                    <section class="logarbtn">
+                       <a  class="registrar btn waves-effect waves-light" type="button" href="/registrar.ejs">Registre-se 
+                            <i class="material-icons right">create</i>
+                       </a>
+                        <button class="btn waves-effect waves-light" value="Log In" type="submit" name="action" onclick="aunthpassport()">Entrar
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </section>
+                </section>
+            </form>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

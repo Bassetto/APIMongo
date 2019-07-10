@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    background-color: #e6e6e6;
+    font-family: 'Merriweather', serif;
+}
+.principal {
+    width: 80%;
+    margin: 1% auto;
+}
+.login {
+    width: 70%;
+    margin: 1% auto;
+}
+.nav-wrapper {
+    background-color: #666666;
+}
+.fieldInput {
+    width: 50%;
+    margin: 5% auto;
+    border: none;
+}
+.row .col.s6 {
+    width: 100%;
+}
+.logarbtn {
+    float: right;
+}
+.recuperar {
+    color: #26A69a;
+    margin: 20%;
+}
+#OcultarSenha {
+    margin-left: 85%;
+    cursor: pointer;
+}
+
+#MostrarSenha {
+    margin-left: 85%;
+    cursor: pointer;
+}
+
+.registrar {
+    text-decoration: none;
+    color: #fff;
+}
+.registre-se {
+    margin-left: 40%;
+}
