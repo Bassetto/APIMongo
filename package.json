@@ -7,7 +7,7 @@
     "test": "nenhum teste especificado",
     "dev": "nodemon server.js"
   },
-  "author": "Lucas",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
